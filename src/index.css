@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-azure-700 text-white font-semibold rounded-lg transition-all duration-200 hover:bg-azure-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-azure-500 focus:ring-offset-2;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-azure-700 text-azure-700 font-semibold rounded-lg transition-all duration-200 hover:bg-azure-50 focus:outline-none focus:ring-2 focus:ring-azure-500 focus:ring-offset-2;
+  }
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-12 py-16 sm:py-20 lg:py-24;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

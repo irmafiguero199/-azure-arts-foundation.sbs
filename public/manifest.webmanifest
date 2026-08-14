@@ -1,0 +1,16 @@
+{
+  "name": "Azure Arts Foundation",
+  "short_name": "Azure Arts",
+  "description": "Registered 501(c)(3) nonprofit fostering artistic expression in Sacramento, California. EIN: 68-0321352.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0369a1",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
