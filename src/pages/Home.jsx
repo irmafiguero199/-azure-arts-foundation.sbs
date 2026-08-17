@@ -208,7 +208,7 @@ function Home() {
                   </div>
                   <div className="flex items-center gap-3 text-slate-700">
                     <span className="w-4 h-4 text-azure-500 flex items-center justify-center text-xs font-bold">@</span>
-                    <a href="mailto:admin@azure-arts-foundation.sbs" className="hover:text-azure-600 transition-colors">
+                    <a href="mailto:admin@azurartsfoundation.sbs" className="hover:text-azure-600 transition-colors">
                      admin@azurartsfoundation.sbs
                     </a>
                   </div>
