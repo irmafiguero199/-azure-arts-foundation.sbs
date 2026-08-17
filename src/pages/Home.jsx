@@ -11,7 +11,7 @@ function Home() {
       <Helmet>
         <title>Azure Arts Foundation | Registered 501(c)(3) Nonprofit | Sacramento, CA</title>
         <meta name="description" content="Azure Arts Foundation is a registered 501(c)(3) nonprofit organization empowering artists and enriching communities through creative programs in Sacramento, California. EIN: 68-0321352." />
-        <link rel="canonical" href="https://www.azure-arts-foundation.sbs/" />
+        <link rel="canonical" href="https://www.azurartsfoundation.sbs/" />
       </Helmet>
 
       <Hero />
@@ -209,7 +209,7 @@ function Home() {
                   <div className="flex items-center gap-3 text-slate-700">
                     <span className="w-4 h-4 text-azure-500 flex items-center justify-center text-xs font-bold">@</span>
                     <a href="mailto:admin@azure-arts-foundation.sbs" className="hover:text-azure-600 transition-colors">
-                      admin@azure-arts-foundation.sbs
+                     admin@azurartsfoundation.sbs
                     </a>
                   </div>
                 </div>
