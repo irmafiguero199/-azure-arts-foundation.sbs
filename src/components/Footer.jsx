@@ -90,7 +90,7 @@ function Footer() {
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-azure-400 shrink-0" />
-                <a href="mailto:admin@azure-arts-foundation.sbs" className="text-slate-300 hover:text-azure-300 transition-colors">
+                <a href="mailto:admin@azurartsfoundation.sbs" className="text-slate-300 hover:text-azure-300 transition-colors">
                   admin@azure-arts-foundation.sbs
                 </a>
               </div>
@@ -106,7 +106,7 @@ function Footer() {
                 <a href="https://www.instagram.com/azureartsfoundation" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-800 rounded-full flex items-center justify-center hover:bg-azure-600 transition-colors" aria-label="Instagram">
                   <Instagram className="w-4 h-4" />
                 </a>
-                <a href="https://www.linkedin.com/company/azure-arts-foundation" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-800 rounded-full flex items-center justify-center hover:bg-azure-600 transition-colors" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/azurartsfoundation.sbs" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-800 rounded-full flex items-center justify-center hover:bg-azure-600 transition-colors" aria-label="LinkedIn">
                   <Linkedin className="w-4 h-4" />
                 </a>
                 <a href="https://twitter.com/azureartsfoundation" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-slate-800 rounded-full flex items-center justify-center hover:bg-azure-600 transition-colors" aria-label="Twitter">
