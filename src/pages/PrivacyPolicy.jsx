@@ -7,7 +7,7 @@ function PrivacyPolicy() {
       <Helmet>
         <title>Privacy Policy | Azure Arts Foundation | Sacramento Nonprofit</title>
         <meta name="description" content="Privacy Policy of Azure Arts Foundation, a registered 501(c)(3) nonprofit in Sacramento, CA. EIN: 68-0321352. Address: 9933 Business Park Dr, Sacramento, CA 95827-1722." />
-        <link rel="canonical" href="https://www.azure-arts-foundation.sbs/privacy-policy" />
+        <link rel="canonical" href="https://www.azurartsfoundation.sbs/privacy-policy" />
       </Helmet>
 
       <div className="bg-azure-900 text-white py-20">
@@ -30,7 +30,7 @@ function PrivacyPolicy() {
               <p className="text-slate-700 text-sm m-0">
                 This Privacy Policy is issued by <strong>Azure Arts Foundation</strong>, a registered 501(c)(3) nonprofit organization.
                 Federal EIN: <strong>68-0321352</strong>. Registered Address: <strong>9933 Business Park Dr, Sacramento, CA 95827-1722, United States</strong>.
-                Contact Email: <a href="mailto:admin@azure-arts-foundation.sbs" className="text-azure-600 hover:underline">admin@azure-arts-foundation.sbs</a>.
+                Contact Email: <a href="mailto:admin@azurartsfoundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a>.
               </p>
             </div>
 
@@ -105,7 +105,7 @@ function PrivacyPolicy() {
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 mt-4">
               <p className="text-slate-700 font-medium">Azure Arts Foundation</p>
               <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><MapPin className="w-4 h-4 text-azure-500" /> 9933 Business Park Dr, Sacramento, CA 95827-1722</p>
-              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@azure-arts-foundation.sbs" className="text-azure-600 hover:underline">admin@azure-arts-foundation.sbs</a></p>
+              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@azure-arts-foundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a></p>
               <p className="text-slate-600 text-sm mt-1">EIN: 68-0321352</p>
             </div>
 
