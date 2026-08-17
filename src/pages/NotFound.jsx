@@ -8,7 +8,7 @@ function NotFound() {
       <Helmet>
         <title>Page Not Found | Azure Arts Foundation | Sacramento Nonprofit</title>
         <meta name="description" content="The page you are looking for could not be found. Azure Arts Foundation - Registered 501(c)(3) Nonprofit. EIN: 68-0321352." />
-        <link rel="canonical" href="https://www.azure-arts-foundation.sbs/404" />
+        <link rel="canonical" href="https://www.azurartsfoundation.sbs/404" />
       </Helmet>
 
       <div className="min-h-[70vh] flex items-center justify-center bg-slate-50">
