@@ -45,9 +45,9 @@ function Header() {
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <a href="mailto:admin@azure-arts-foundation.sbs" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
+              <a href="mailto:admin@azurartsfoundation.sbs" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
                 <Mail className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">admin@azure-arts-foundation.sbs</span>
+                <span className="hidden sm:inline">admin@azurartsfoundation.sbs</span>
               </a>
               <a href="tel:+19165550142" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
                 <Phone className="w-3.5 h-3.5" />
