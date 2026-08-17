@@ -91,7 +91,7 @@ function Footer() {
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-azure-400 shrink-0" />
                 <a href="mailto:admin@azurartsfoundation.sbs" className="text-slate-300 hover:text-azure-300 transition-colors">
-                  admin@azure-arts-foundation.sbs
+                  admin@azurartsfoundation.sbs
                 </a>
               </div>
             </div>
