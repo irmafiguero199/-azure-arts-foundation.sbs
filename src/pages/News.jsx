@@ -8,47 +8,47 @@ function News() {
     {
       date: 'August 10, 2026',
       category: 'Programs',
-      title: 'Youth Arts Academy Fall Registration Now Open',
-      excerpt: 'Registration is now open for our Fall 2026 Youth Arts Academy sessions. Classes in visual arts, music, theater, and digital media begin September 8th at our Sacramento studio. Scholarships available for qualifying families.',
+      title: 'Youth Sailing Academy Fall Registration Now Open',
+      excerpt: 'Registration is now open for our Fall 2026 Youth Sailing Academy sessions. Classes in seamanship, navigation, water safety, and racing begin September 8th at our Bonita Springs facility. Scholarships available for qualifying families.',
     },
     {
       date: 'July 28, 2026',
       category: 'Grants',
-      title: '2026 Artist Grant Recipients Announced',
-      excerpt: 'We are thrilled to announce the 12 talented Sacramento artists who will receive grants totaling $75,000 this year. The selected artists represent diverse disciplines including painting, sculpture, photography, and performance art.',
+      title: '2026 Sailing Grant Recipients Announced',
+      excerpt: 'We are thrilled to announce the 12 talented Bonita Springs sailors who will receive grants totaling $75,000 this year. The selected sailors represent diverse maritime disciplines including dinghy racing, coastal cruising, navigation, and marine mechanics.',
     },
     {
       date: 'July 15, 2026',
       category: 'Events',
-      title: 'Summer Arts Festival Draws Record Crowd',
-      excerpt: 'Over 3,000 community members attended our annual Summer Arts Festival at William Land Park on July 12th. The event featured 80 local artists, live performances, and interactive art stations for children.',
+      title: 'Summer Regatta Draws Record Crowd',
+      excerpt: 'Over 3,000 community members attended our annual Summer Regatta at Bonita Bay on July 12th. The event featured 80 local vessels, live marine exhibitions, and interactive water safety stations for children.',
     },
     {
       date: 'June 20, 2026',
-      category: 'Murals',
-      title: 'Oak Park Community Mural Unveiled',
-      excerpt: 'A vibrant 200-foot mural celebrating Oak Park history was unveiled today at 14th Avenue and Stockton Boulevard. The project engaged 45 community members in its creation over six weeks.',
+      category: 'Marinas',
+      title: 'Bonita Bay Community Dock Unveiled',
+      excerpt: 'A vibrant modern community dock celebrating Bonita Springs maritime history was unveiled today at Bonita Bay Blvd. The project engaged 45 community members in its development over six weeks.',
     },
     {
       date: 'May 5, 2026',
       category: 'Programs',
-      title: 'New Partnership with Sacramento City Unified School District',
-      excerpt: 'Azure Arts Foundation is proud to announce a three-year partnership with SCUSD to bring arts education to 15 elementary schools lacking dedicated art programs.',
+      title: 'New Partnership with Lee County Public Schools',
+      excerpt: 'Pelican Bay Sailing School Inc is proud to announce a three-year partnership with LCPS to bring sailing education to 15 elementary schools lacking dedicated marine programs.',
     },
     {
       date: 'April 15, 2026',
       category: 'Awards',
-      title: 'Azure Arts Foundation Receives Regional Nonprofit Excellence Award',
-      excerpt: 'The Sacramento Business Journal has recognized Azure Arts Foundation with the 2026 Regional Nonprofit Excellence Award for outstanding community impact and program innovation.',
+      title: 'Pelican Bay Sailing School Receives Regional Nonprofit Excellence Award',
+      excerpt: 'The Florida Business Journal has recognized Pelican Bay Sailing School Inc with the 2026 Regional Nonprofit Excellence Award for outstanding community impact and program innovation.',
     },
   ]
 
   return (
     <>
       <Helmet>
-        <title>News & Updates | Azure Arts Foundation | Sacramento Nonprofit</title>
-        <meta name="description" content="Latest news from Azure Arts Foundation in Sacramento, CA. Programs, grants, events, and community updates. 501(c)(3) nonprofit. EIN: 68-0321352." />
-        <link rel="canonical" href="https://www.azure-arts-foundation.sbs/news" />
+        <title>News & Updates | Pelican Bay Sailing School Inc | Bonita Springs Nonprofit</title>
+        <meta name="description" content="Latest news from Pelican Bay Sailing School Inc in Bonita Springs, FL. Programs, grants, events, and community updates. 501(c)(3) nonprofit. EIN: 92-3488213." />
+        <link rel="canonical" href="https://www.pelicanbaysailingschoolinc.sbs/news" />
       </Helmet>
 
       <div className="bg-azure-900 text-white py-20">
@@ -64,39 +64,7 @@ function News() {
         <div className="container-custom mx-auto max-w-4xl">
           <SectionHeader
             title="Latest Articles"
-            subtitle="News, announcements, and stories from the Azure Arts Foundation community."
+            subtitle="News, announcements, and stories from the Pelican Bay Sailing School Inc community."
           />
 
-          <div className="space-y-6">
-            {articles.map((a, i) => (
-              <article key={i} className="bg-slate-50 rounded-xl p-6 lg:p-8 border border-slate-100 hover:shadow-md transition-shadow">
-                <div className="flex flex-wrap items-center gap-3 mb-3">
-                  <span className="flex items-center gap-1.5 text-xs font-medium text-azure-600 bg-azure-50 px-3 py-1 rounded-full">
-                    <Tag className="w-3 h-3" /> {a.category}
-                  </span>
-                  <span className="flex items-center gap-1.5 text-xs text-slate-400">
-                    <Calendar className="w-3 h-3" /> {a.date}
-                  </span>
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{a.title}</h3>
-                <p className="text-slate-600 leading-relaxed mb-4">{a.excerpt}</p>
-                <button className="text-azure-600 hover:text-azure-700 text-sm font-medium flex items-center gap-1">
-                  Read More <ArrowRight className="w-4 h-4" />
-                </button>
-              </article>
-            ))}
-          </div>
-
-          <div className="mt-10 text-center">
-            <p className="text-slate-500 text-sm">
-              For media inquiries, please contact{' '}
-              <a href="mailto:admin@azure-arts-foundation.sbs" className="text-azure-600 hover:underline">admin@azure-arts-foundation.sbs</a>
-            </p>
-          </div>
-        </div>
-      </section>
-    </>
-  )
-}
-
-export default News
+          <div className="
