@@ -37,21 +37,21 @@ function Header() {
             <div className="flex items-center gap-4 flex-wrap">
               <span className="flex items-center gap-1.5">
                 <Shield className="w-3.5 h-3.5 text-gold-400" />
-                <span className="font-medium">501(c)(3) | EIN: 68-0321352</span>
+                <span className="font-medium">501(c)(3) | EIN: 92-3488213</span>
               </span>
               <span className="hidden sm:flex items-center gap-1.5 text-azure-200">
                 <MapPin className="w-3.5 h-3.5" />
-                <span>9933 Business Park Dr, Sacramento, CA 95827-1722</span>
+                <span>4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134</span>
               </span>
             </div>
             <div className="flex items-center gap-4">
-              <a href="mailto:admin@azurartsfoundation.sbs" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
+              <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
                 <Mail className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">admin@azurartsfoundation.sbs</span>
+                <span className="hidden sm:inline">admin@pelicanbaysailingschoolinc.sbs</span>
               </a>
-              <a href="tel:+19165550142" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
+              <a href="tel:+12395550142" className="flex items-center gap-1.5 hover:text-gold-300 transition-colors">
                 <Phone className="w-3.5 h-3.5" />
-                <span className="hidden md:inline">(916) 555-0142</span>
+                <span className="hidden md:inline">(239) 555-0142</span>
               </a>
             </div>
           </div>
@@ -65,11 +65,11 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
               <div className="w-10 h-10 bg-azure-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
+                <span className="text-white font-bold text-lg">P</span>
               </div>
               <div className="hidden sm:block">
-                <span className="text-xl font-bold text-slate-900 font-display">Azure Arts</span>
-                <span className="block text-xs text-azure-600 -mt-1">Foundation</span>
+                <span className="text-xl font-bold text-slate-900 font-display">Pelican Bay</span>
+                <span className="block text-xs text-azure-600 -mt-1">Sailing School Inc</span>
               </div>
             </Link>
 
@@ -132,10 +132,10 @@ function Header() {
               </Link>
               <div className="pt-3 mt-3 border-t border-slate-100 text-xs text-slate-500 space-y-1">
                 <p className="flex items-center gap-1.5">
-                  <Shield className="w-3 h-3" /> EIN: 68-0321352
+                  <Shield className="w-3 h-3" /> EIN: 92-3488213
                 </p>
                 <p className="flex items-center gap-1.5">
-                  <MapPin className="w-3 h-3" /> 9933 Business Park Dr, Sacramento, CA 95827-1722
+                  <MapPin className="w-3 h-3" /> 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134
                 </p>
               </div>
             </div>
