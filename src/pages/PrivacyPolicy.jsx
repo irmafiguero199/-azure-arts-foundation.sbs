@@ -5,9 +5,9 @@ function PrivacyPolicy() {
   return (
     <>
       <Helmet>
-        <title>Privacy Policy | Azure Arts Foundation | Sacramento Nonprofit</title>
-        <meta name="description" content="Privacy Policy of Azure Arts Foundation, a registered 501(c)(3) nonprofit in Sacramento, CA. EIN: 68-0321352. Address: 9933 Business Park Dr, Sacramento, CA 95827-1722." />
-        <link rel="canonical" href="https://www.azurartsfoundation.sbs/privacy-policy" />
+        <title>Privacy Policy | Pelican Bay Sailing School Inc | Bonita Springs Nonprofit</title>
+        <meta name="description" content="Privacy Policy of Pelican Bay Sailing School Inc, a registered 501(c)(3) nonprofit in Bonita Springs, FL. EIN: 92-3488213. Address: 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134." />
+        <link rel="canonical" href="https://www.pelicanbaysailingschoolinc.sbs/privacy-policy" />
       </Helmet>
 
       <div className="bg-azure-900 text-white py-20">
@@ -28,15 +28,15 @@ function PrivacyPolicy() {
                 <h2 className="text-lg font-bold text-slate-900 m-0">Organization Information</h2>
               </div>
               <p className="text-slate-700 text-sm m-0">
-                This Privacy Policy is issued by <strong>Azure Arts Foundation</strong>, a registered 501(c)(3) nonprofit organization.
-                Federal EIN: <strong>68-0321352</strong>. Registered Address: <strong>9933 Business Park Dr, Sacramento, CA 95827-1722, United States</strong>.
-                Contact Email: <a href="mailto:admin@azurartsfoundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a>.
+                This Privacy Policy is issued by <strong>Pelican Bay Sailing School Inc</strong>, a registered 501(c)(3) nonprofit organization.
+                Federal EIN: <strong>92-3488213</strong>. Registered Address: <strong>4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134, United States</strong>.
+                Contact Email: <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="text-azure-600 hover:underline">admin@pelicanbaysailingschoolinc.sbs</a>.
               </p>
             </div>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed">
-              Azure Arts Foundation ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at www.azure-arts-foundation.sbs or interact with us. By using our website, you consent to the practices described in this policy.
+              Pelican Bay Sailing School Inc ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at www.pelicanbaysailingschoolinc.sbs or interact with us. By using our website, you consent to the practices described in this policy.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">2. Information We Collect</h2>
@@ -103,10 +103,10 @@ function PrivacyPolicy() {
               If you have questions about this Privacy Policy or our data practices, please contact us:
             </p>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 mt-4">
-              <p className="text-slate-700 font-medium">Azure Arts Foundation</p>
-              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><MapPin className="w-4 h-4 text-azure-500" /> 9933 Business Park Dr, Sacramento, CA 95827-1722</p>
-              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@azure-arts-foundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a></p>
-              <p className="text-slate-600 text-sm mt-1">EIN: 68-0321352</p>
+              <p className="text-slate-700 font-medium">Pelican Bay Sailing School Inc</p>
+              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><MapPin className="w-4 h-4 text-azure-500" /> 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134</p>
+              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="text-azure-600 hover:underline">admin@pelicanbaysailingschoolinc.sbs</a></p>
+              <p className="text-slate-600 text-sm mt-1">EIN: 92-3488213</p>
             </div>
 
             <p className="text-slate-500 text-sm mt-8">Last Updated: August 14, 2026</p>
