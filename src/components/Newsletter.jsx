@@ -19,10 +19,10 @@ function Newsletter() {
       <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 font-display">
-            Stay Connected with Azure Arts
+            Stay Connected with Pelican Bay Sailing School
           </h2>
           <p className="text-slate-600 mb-8">
-            Subscribe to our newsletter for updates on programs, events, and opportunities to support the arts in Sacramento.
+            Subscribe to our newsletter for updates on programs, events, and opportunities to support sailing excellence in Bonita Springs.
           </p>
 
           {submitted ? (
@@ -51,7 +51,7 @@ function Newsletter() {
           )}
 
           <p className="text-xs text-slate-400 mt-4">
-            Azure Arts Foundation respects your privacy. EIN: 68-0321352
+            PELICAN BAY SAILING SCHOOL INC respects your privacy. EIN: 92-3488213
           </p>
         </div>
       </div>
