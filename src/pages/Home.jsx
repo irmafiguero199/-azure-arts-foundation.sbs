@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Palette, BookOpen, Users, Heart, Calendar, MapPin } from 'lucide-react'
+import { ArrowRight, Anchor, BookOpen, Users, Heart, Calendar, MapPin } from 'lucide-react'
 import Hero from '../components/Hero'
 import SectionHeader from '../components/SectionHeader'
 import Newsletter from '../components/Newsletter'
@@ -9,9 +9,9 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>Azure Arts Foundation | Registered 501(c)(3) Nonprofit | Sacramento, CA</title>
-        <meta name="description" content="Azure Arts Foundation is a registered 501(c)(3) nonprofit organization empowering artists and enriching communities through creative programs in Sacramento, California. EIN: 68-0321352." />
-        <link rel="canonical" href="https://www.azurartsfoundation.sbs/" />
+        <title>Pelican Bay Sailing School Inc | Registered 501(c)(3) Nonprofit | Bonita Springs, FL</title>
+        <meta name="description" content="Pelican Bay Sailing School Inc is a registered 501(c)(3) nonprofit organization empowering sailors and enriching communities through sailing programs in Bonita Springs, Florida. EIN: 92-3488213." />
+        <link rel="canonical" href="https://www.pelicanbaysailingschoolinc.sbs/" />
       </Helmet>
 
       <Hero />
@@ -23,17 +23,17 @@ function Home() {
             <div>
               <span className="text-azure-600 font-semibold text-sm uppercase tracking-wider">Our Mission</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mt-3 mb-6 font-display">
-                Cultivating Creativity, Building Community
+                Cultivating Sailing Skills, Building Community
               </h2>
               <p className="text-slate-600 leading-relaxed mb-6">
-                Azure Arts Foundation believes that access to the arts is a fundamental right. Since our founding in 2019, 
-                we have worked tirelessly to remove barriers to artistic participation for underserved youth, emerging artists, 
-                and community members throughout Sacramento County. Through workshops, exhibitions, grants, and public art 
-                installations, we create spaces where creativity thrives and communities connect.
+                Pelican Bay Sailing School Inc believes that access to sailing education is a fundamental right. Since our founding in 2019, 
+                we have worked tirelessly to remove barriers to maritime participation for underserved youth, emerging sailors, 
+                and community members throughout Lee County. Through workshops, regattas, grants, and public marine safety programs, 
+                we create spaces where sailing thrives and communities connect.
               </p>
               <p className="text-slate-600 leading-relaxed mb-8">
-                Our programs reach over 2,500 individuals annually, providing free and low-cost arts education, 
-                professional development for artists, and cultural events that celebrate the diverse heritage of our region.
+                Our programs reach over 2,500 individuals annually, providing free and low-cost sailing education, 
+                professional development for mariners, and cultural events that celebrate the maritime heritage of our region.
               </p>
               <Link to="/mission-vision" className="btn-primary">
                 Learn About Our Mission
@@ -43,9 +43,9 @@ function Home() {
             <div className="relative">
               <div className="aspect-[4/3] bg-gradient-to-br from-azure-100 to-azure-200 rounded-2xl flex items-center justify-center">
                 <div className="text-center p-8">
-                  <Palette className="w-20 h-20 text-azure-500 mx-auto mb-4" />
-                  <p className="text-azure-800 font-display text-xl font-semibold">Art for Everyone</p>
-                  <p className="text-azure-600 mt-2">Sacramento's creative community hub</p>
+                  <Anchor className="w-20 h-20 text-azure-500 mx-auto mb-4" />
+                  <p className="text-azure-800 font-display text-xl font-semibold">Sailing for Everyone</p>
+                  <p className="text-azure-600 mt-2">Bonita Springs's maritime community hub</p>
                 </div>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-5 border border-slate-100">
@@ -69,33 +69,33 @@ function Home() {
         <div className="container-custom mx-auto">
           <SectionHeader
             title="Our Programs"
-            subtitle="We offer a diverse range of programs designed to nurture artistic talent, provide educational opportunities, and strengthen community bonds through creative expression."
+            subtitle="We offer a diverse range of programs designed to nurture sailing talent, provide educational opportunities, and strengthen community bonds through maritime activities."
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                icon: <Palette className="w-8 h-8" />,
-                title: 'Youth Arts Academy',
-                desc: 'Free after-school arts education for students ages 8-18, covering visual arts, music, theater, and digital media.',
+                icon: <Anchor className="w-8 h-8" />,
+                title: 'Youth Sailing Academy',
+                desc: 'Free after-school sailing education for students ages 8-18, covering seamanship, navigation, water safety, and racing.',
                 color: 'bg-azure-50 text-azure-700',
               },
               {
                 icon: <BookOpen className="w-8 h-8" />,
-                title: 'Artist Grants',
-                desc: 'Financial support for emerging and mid-career artists in Sacramento to create new work and advance their practice.',
+                title: 'Sailing Grants',
+                desc: 'Financial support for emerging and mid-career sailors in Bonita Springs to advance their training and certifications.',
                 color: 'bg-gold-50 text-gold-700',
               },
               {
                 icon: <Users className="w-8 h-8" />,
-                title: 'Community Murals',
-                desc: 'Collaborative public art projects that transform neighborhoods and give voice to local stories and identities.',
+                title: 'Community Regattas',
+                desc: 'Collaborative public sailing events that unite coastal neighborhoods and give voice to local maritime heritage.',
                 color: 'bg-emerald-50 text-emerald-700',
               },
               {
                 icon: <Calendar className="w-8 h-8" />,
-                title: 'Cultural Events',
-                desc: 'Annual festivals, exhibitions, and performances that celebrate the rich cultural diversity of Sacramento.',
+                title: 'Maritime Events',
+                desc: 'Annual boat shows, regattas, and educational seminars that celebrate the rich coastal diversity of Bonita Springs.',
                 color: 'bg-rose-50 text-rose-700',
               },
             ].map((program, idx) => (
@@ -123,10 +123,10 @@ function Home() {
         <div className="container-custom mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
-              <h3 className="text-2xl font-bold font-display mb-2">Make a Difference in Sacramento's Arts Community</h3>
+              <h3 className="text-2xl font-bold font-display mb-2">Make a Difference in Bonita Springs's Sailing Community</h3>
               <p className="text-azure-200">
-                Your tax-deductible donation directly supports artists and arts education in our community. 
-                Azure Arts Foundation is a registered 501(c)(3) nonprofit. EIN: 68-0321352.
+                Your tax-deductible donation directly supports sailors and sailing education in our community. 
+                Pelican Bay Sailing School Inc is a registered 501(c)(3) nonprofit. EIN: 92-3488213.
               </p>
             </div>
             <Link to="/donate" className="btn-primary bg-gold-500 hover:bg-gold-600 shrink-0">
@@ -141,7 +141,7 @@ function Home() {
         <div className="container-custom mx-auto">
           <SectionHeader
             title="Latest News"
-            subtitle="Stay informed about our latest programs, events, and the impact we are making in the Sacramento arts community."
+            subtitle="Stay informed about our latest programs, events, and the impact we are making in the Bonita Springs sailing community."
           />
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -149,20 +149,20 @@ function Home() {
               {
                 date: 'August 10, 2026',
                 category: 'Programs',
-                title: 'Youth Arts Academy Fall Registration Now Open',
-                excerpt: 'Registration is now open for our Fall 2026 Youth Arts Academy sessions. Classes begin September 8th at our Sacramento studio.',
+                title: 'Youth Sailing Academy Fall Registration Now Open',
+                excerpt: 'Registration is now open for our Fall 2026 Youth Sailing Academy sessions. Classes begin September 8th at our Bonita Springs facility.',
               },
               {
                 date: 'July 28, 2026',
                 category: 'Grants',
-                title: '2026 Artist Grant Recipients Announced',
-                excerpt: 'We are thrilled to announce the 12 talented Sacramento artists who will receive grants totaling $75,000 this year.',
+                title: '2026 Sailing Grant Recipients Announced',
+                excerpt: 'We are thrilled to announce the 12 talented Bonita Springs sailors who will receive grants totaling $75,000 this year.',
               },
               {
                 date: 'July 15, 2026',
                 category: 'Events',
-                title: 'Summer Arts Festival Draws Record Crowd',
-                excerpt: 'Over 3,000 community members attended our annual Summer Arts Festival at William Land Park on July 12th.',
+                title: 'Summer Regatta Draws Record Crowd',
+                excerpt: 'Over 3,000 community members attended our annual Summer Regatta at Bonita Bay on July 12th.',
               },
             ].map((news, idx) => (
               <article key={idx} className="bg-slate-50 rounded-xl overflow-hidden border border-slate-100 hover:shadow-md transition-shadow">
@@ -199,17 +199,17 @@ function Home() {
                 <h3 className="text-2xl font-bold text-slate-900 mb-3 font-display">Get in Touch</h3>
                 <p className="text-slate-600 mb-6">
                   Have questions about our programs, partnership opportunities, or how to get involved? 
-                  We would love to hear from you. Reach out to our team at Azure Arts Foundation.
+                  We would love to hear from you. Reach out to our team at Pelican Bay Sailing School Inc.
                 </p>
                 <div className="space-y-3 text-sm">
                   <div className="flex items-center gap-3 text-slate-700">
                     <MapPin className="w-4 h-4 text-azure-500" />
-                    <span>9933 Business Park Dr, Sacramento, CA 95827-1722</span>
+                    <span>4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134</span>
                   </div>
                   <div className="flex items-center gap-3 text-slate-700">
                     <span className="w-4 h-4 text-azure-500 flex items-center justify-center text-xs font-bold">@</span>
-                    <a href="mailto:admin@azurartsfoundation.sbs" className="hover:text-azure-600 transition-colors">
-                     admin@azurartsfoundation.sbs
+                    <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="hover:text-azure-600 transition-colors">
+                      admin@pelicanbaysailingschoolinc.sbs
                     </a>
                   </div>
                 </div>
