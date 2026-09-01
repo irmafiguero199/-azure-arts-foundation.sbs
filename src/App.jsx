@@ -5,6 +5,7 @@ import About from './pages/About'
 import Donate from './pages/Donate'
 import Gallery from './pages/Gallery'
 import News from './pages/News'
+import Contact from './pages/Contact' // Zid hadi
 import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService'
 import NotFound from './pages/NotFound'
@@ -21,6 +22,7 @@ function App() {
           <Route path="/donate" element={<Donate />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/news" element={<News />} />
+          <Route path="/contact" element={<Contact />} /> {/* Zid hadi hta hiya */}
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="*" element={<NotFound />} />
