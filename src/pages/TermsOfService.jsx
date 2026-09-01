@@ -5,9 +5,9 @@ function TermsOfService() {
   return (
     <>
       <Helmet>
-        <title>Terms of Service | Azure Arts Foundation | Sacramento Nonprofit</title>
-        <meta name="description" content="Terms of Service for Azure Arts Foundation, a registered 501(c)(3) nonprofit in Sacramento, CA. EIN: 68-0321352. Address: 9933 Business Park Dr, Sacramento, CA 95827-1722." />
-        <link rel="canonical" href="https://www.admin@azurartsfoundation.sbs/terms-of-service" />
+        <title>Terms of Service | Pelican Bay Sailing School Inc | Bonita Springs Nonprofit</title>
+        <meta name="description" content="Terms of Service for Pelican Bay Sailing School Inc, a registered 501(c)(3) nonprofit in Bonita Springs, FL. EIN: 92-3488213. Address: 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134." />
+        <link rel="canonical" href="https://www.pelicanbaysailingschoolinc.sbs/terms-of-service" />
       </Helmet>
 
       <div className="bg-azure-900 text-white py-20">
@@ -28,20 +28,20 @@ function TermsOfService() {
                 <h2 className="text-lg font-bold text-slate-900 m-0">Organization Information</h2>
               </div>
               <p className="text-slate-700 text-sm m-0">
-                These Terms of Service are issued by <strong>Azure Arts Foundation</strong>, a registered 501(c)(3) nonprofit organization.
-                Federal EIN: <strong>68-0321352</strong>. Registered Address: <strong>9933 Business Park Dr, Sacramento, CA 95827-1722, United States</strong>.
-                Contact Email: <a href="mailto:admin@azurartsfoundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a>.
+                These Terms of Service are issued by <strong>Pelican Bay Sailing School Inc</strong>, a registered 501(c)(3) nonprofit organization.
+                Federal EIN: <strong>92-3488213</strong>. Registered Address: <strong>4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134, United States</strong>.
+                Contact Email: <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="text-azure-600 hover:underline">admin@pelicanbaysailingschoolinc.sbs</a>.
               </p>
             </div>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display">1. Agreement to Terms</h2>
             <p className="text-slate-600 leading-relaxed">
-              By accessing or using the website of Azure Arts Foundation ("we," "us," or "our") at www.azure-arts-foundation.sbs, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website.
+              By accessing or using the website of Pelican Bay Sailing School Inc ("we," "us," or "our") at www.pelicanbaysailingschoolinc.sbs, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">2. Organization Information</h2>
             <p className="text-slate-600 leading-relaxed">
-              Azure Arts Foundation is a registered 501(c)(3) nonprofit organization incorporated in the State of California. Our federal Employer Identification Number (EIN) is 68-0321352. Our registered address is 9933 Business Park Dr, Sacramento, CA 95827-1722, United States.
+              Pelican Bay Sailing School Inc is a registered 501(c)(3) nonprofit organization incorporated in the State of Florida. Our federal Employer Identification Number (EIN) is 92-3488213. Our registered address is 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134, United States.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">3. Use of Website</h2>
@@ -58,12 +58,12 @@ function TermsOfService() {
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">4. Donations</h2>
             <p className="text-slate-600 leading-relaxed">
-              All donations made to Azure Arts Foundation are voluntary and non-refundable. Donations are tax-deductible to the fullest extent allowed by law. We are a registered 501(c)(3) nonprofit organization (EIN: 68-0321352). Donors will receive a receipt for tax purposes.
+              All donations made to Pelican Bay Sailing School Inc are voluntary and non-refundable. Donations are tax-deductible to the fullest extent allowed by law. We are a registered 501(c)(3) nonprofit organization (EIN: 92-3488213). Donors will receive a receipt for tax purposes.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">5. Intellectual Property</h2>
             <p className="text-slate-600 leading-relaxed">
-              All content on this website, including text, graphics, logos, images, and software, is the property of Azure Arts Foundation or its content suppliers and is protected by United States and international copyright laws. You may not reproduce, distribute, modify, or create derivative works without our express written permission.
+              All content on this website, including text, graphics, logos, images, and software, is the property of Pelican Bay Sailing School Inc or its content suppliers and is protected by United States and international copyright laws. You may not reproduce, distribute, modify, or create derivative works without our express written permission.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">6. Third-Party Links</h2>
@@ -78,12 +78,12 @@ function TermsOfService() {
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">8. Limitation of Liability</h2>
             <p className="text-slate-600 leading-relaxed">
-              To the maximum extent permitted by law, Azure Arts Foundation shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the website.
+              To the maximum extent permitted by law, Pelican Bay Sailing School Inc shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the website.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">9. Governing Law</h2>
             <p className="text-slate-600 leading-relaxed">
-              These Terms of Service shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflict of law provisions. Any disputes arising under these terms shall be resolved in the courts of Sacramento County, California.
+              These Terms of Service shall be governed by and construed in accordance with the laws of the State of Florida, without regard to its conflict of law provisions. Any disputes arising under these terms shall be resolved in the courts of Lee County, Florida.
             </p>
 
             <h2 className="text-2xl font-bold text-slate-900 font-display mt-8">10. Changes to Terms</h2>
@@ -96,10 +96,10 @@ function TermsOfService() {
               If you have questions about these Terms of Service, please contact us:
             </p>
             <div className="bg-slate-50 rounded-xl p-6 border border-slate-100 mt-4">
-              <p className="text-slate-700 font-medium">Azure Arts Foundation</p>
-              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><MapPin className="w-4 h-4 text-azure-500" /> 9933 Business Park Dr, Sacramento, CA 95827-1722</p>
-              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@azurartsfoundation.sbs" className="text-azure-600 hover:underline">admin@azurartsfoundation.sbs</a></p>
-              <p className="text-slate-600 text-sm mt-1">EIN: 68-0321352</p>
+              <p className="text-slate-700 font-medium">Pelican Bay Sailing School Inc</p>
+              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><MapPin className="w-4 h-4 text-azure-500" /> 4971 BONITA BAY BLVD, BONITA SPRINGS, FL 34134</p>
+              <p className="text-slate-600 text-sm flex items-center gap-2 mt-1"><Mail className="w-4 h-4 text-azure-500" /> <a href="mailto:admin@pelicanbaysailingschoolinc.sbs" className="text-azure-600 hover:underline">admin@pelicanbaysailingschoolinc.sbs</a></p>
+              <p className="text-slate-600 text-sm mt-1">EIN: 92-3488213</p>
             </div>
 
             <p className="text-slate-500 text-sm mt-8">Last Updated: August 14, 2026</p>
