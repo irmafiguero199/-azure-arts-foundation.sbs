@@ -67,4 +67,28 @@ function News() {
             subtitle="News, announcements, and stories from the Pelican Bay Sailing School Inc community."
           />
 
-          <div className="
+          <div className="space-y-8">
+            {articles.map((article, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-3">
+                  <span className="flex items-center gap-1">
+                    <Calendar className="w-4 h-4 text-azure-600" />
+                    {article.date}
+                  </span>
+                  <span className="flex items-center gap-1 bg-azure-50 text-azure-700 px-2.5 py-0.5 rounded-full text-xs font-medium">
+                    <Tag className="w-3 h-3" />
+                    {article.category}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">{article.title}</h3>
+                <p className="text-gray-600 mb-4 leading-relaxed">{article.excerpt}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default News
