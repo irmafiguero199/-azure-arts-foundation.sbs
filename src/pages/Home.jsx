@@ -35,7 +35,7 @@ function Home() {
                 Our programs reach over 2,500 individuals annually, providing free and low-cost sailing education, 
                 professional development for mariners, and cultural events that celebrate the maritime heritage of our region.
               </p>
-              <Link to="/mission-vision" className="btn-primary">
+              <Link to="/about" className="btn-primary">
                 Learn About Our Mission
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
@@ -110,7 +110,7 @@ function Home() {
           </div>
 
           <div className="text-center mt-10">
-            <Link to="/programs" className="btn-secondary">
+            <Link to="/about" className="btn-secondary">
               View All Programs
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
